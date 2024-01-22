@@ -167,8 +167,9 @@ public class GameOfLife {
 		for (int i = 1; i < arr.length - 1; i++){
 			//String currentLine = in.readLine();
 			for (int j = 1; j < arr[0].length - 1; j++){
-				System.out.printf("%3s",arr[i][j] + "%n");
+				System.out.printf("%3s",arr[i][j]);
 			}
+			System.out.printf("%n");
 		}
 	}
 		
