@@ -74,6 +74,7 @@ public class GameOfLife {
 		int rows = Integer.parseInt(in.readLine());
 		int cols = Integer.parseInt(in.readLine());
 		int[][] board = new int[rows + 2][cols + 2];
+		// #feedback - please remove code that is not used before submitting.
 		//System.out.println(board.length);
 		//System.out.println(board[0].length);
 		//in.readLine();
